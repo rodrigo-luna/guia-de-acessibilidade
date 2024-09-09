@@ -44,11 +44,11 @@
     <body>
         <div>
             <h1>Guia de como tornar os materiais mais acessíveis para professores do IFPR</h1>
-            <p>Andrew Bryan Demeterco, Felipe Suzuki, Norton Jr., Rodrigo Luna, Saulo Centenaro, Teodoro Valença de Souza Wacholski</p>
+            <p>Autores: Andrew Bryan Demeterco, Felipe Suzuki, Norton Jr., Rodrigo Luna, Saulo Centenaro, Teodoro Valença de Souza Wacholski</p>
+            <p>Orientação: Prof. Leonelo Dell Anhol Almeida</p>
             <h2>1 Introdução</h2>
-            <p>Este trabalho está sendo desenvolvido para a aula de Acessibilidade e Inclusão Digital, e tem como objetivo trazer técnicas e métodos para tornar acessíveis os materiais escolares do IFPR (Instituto Federal do Paraná), com o auxílio da participação da comunidade externa proveniente do IFPR-Colombo. Foram dois docentes e dois discentes dos quais enfocaremos na Raíssa que possui cegueira total e também em outras deficiências visuais.</p>
-            <p>Para a realização deste guia utilizaremos materiais retirados do próprio IFPR e alguns artigos encontrados na internet.</p>
-            <p>Perguntamos para a Raíssa quais suas maiores dificuldades nos materiais, e ela explicou que suas as grandes dificuldades são em imagens de biologia e tabelas/diagramas de banco de dados.</p>
+            <p>Este trabalho foi desenvolvido para a aula de Acessibilidade e Inclusão Digital, e tem como objetivo trazer técnicas e métodos para tornar mais acessíveis os materiais escolares do IFPR (Instituto Federal do Paraná), com o auxílio da participação da comunidade externa proveniente do IFPR-Colombo.</p>
+            <p>Para a realização deste guia utilizamos materiais retirados do próprio IFPR e alguns artigos encontrados na internet. Conversando com uma aluna com deficiência visual sobre as suas dificuldades nos materiais, foi explicado que algumas das suas maiores dificuldades são em imagens de biologia e tabelas/diagramas de banco de dados.</p>
             <h2>2 Técnicas para deixar o material mais acessível</h2>
             <h3>2.1 Alunos com baixa visão e/ou Dislexia, Cegos</h3>
             <p>A baixa visão refere-se a pessoas com funcionamento comprometido de ambos os olhos. Mesmo tendo baixa visão, diferentemente da cegueira, ainda existe algum nível de visão. Dessa forma, é possível serem feitas algumas alterações nos textos, como aumentar o tamanho da fonte, usar fontes com boa distinção entre caracteres e sem serifa (como arial ou verdana, por exemplo), recursos com alto contraste, bem como disponibilizar efeitos de lupa, ou mesmo leitores de tela.</p>
@@ -232,20 +232,20 @@
                 </figure>
             </ul>
             <h3>2.3 Boas Práticas de Construção de HTML</h3>
-            <p>O Modelo de Acessibilidade em Governo Eletrônico (eMAG, https://emag.governoeletronico.gov.br/) apresenta diretrizes e recomendações de acessibilidade para tornar o conteúdo Web acessível a todas as pessoas. Para a construção de documentos em HTML, algumas coisas precisam ser levadas em consideração:</p>
+            <p>O WCAG (Web Content Accessibility Guidelines, pubicado pelo W3C) apresenta diretrizes e recomendações de acessibilidade para tornar o conteúdo Web acessível a todas as pessoas. Para a construção de documentos em HTML, algumas coisas precisam ser levadas em consideração:</p>
             <ul>
-                <li><strong>Usar HTML válido e semântico.</strong> Antes de tudo, o código precisa ser escrito com a gramática e sintaxe HTML correta, para evitar erros de interpretação do navegador ou de leitores de tela. Além disso, os elementos HTML devem ser utilizados para descrever o que eles são, e não como eles devem aparecer visualmente. Por exemplo, sempre que possível, deve-se tentar substituir tags div por tags mais descritivas.</li>
+                <li><strong>Usar HTML válido e semântico.</strong> Antes de tudo, o código precisa ser escrito com a gramática e sintaxe HTML correta, para evitar erros de interpretação do navegador ou de leitores de tela. Além disso, os elementos HTML devem ser utilizados para descrever o que eles são, e não como eles devem aparecer visualmente. Por exemplo, sempre que possível, deve-se tentar substituir tags "div" por tags mais descritivas.</li>
                 <code>
                     &lt;figure>
                     <br>&emsp;&emsp;&emsp;&lt;img src="cachorro.jpg" alt="foto de um cachorro deitado no chão">
                     <br>&emsp;&emsp;&emsp;&lt;figcaption>Foto do meu cachorro Fred&lt;/figcaption>
                     <br>&lt;/figure>
                 </code>
-                <li><strong>Organizar o código de forma lógica.</strong> Os elementos HTML devem ser apresentados em uma ordem compreensível e correspondendo ao conteúdo desejado. Por exemplo, cabeçalhos devem ser utilizados de acordo com a sua hierarquia, com o h1 sendo o mais importante, o h2 para o segundo mais importante, até o último nível. Listas ordenadas devem ser representadas com a tag ol apropriadamente, entre outros.</li>
+                <li><strong>Organizar o código de forma lógica.</strong> Os elementos HTML devem ser apresentados em uma ordem compreensível e correspondendo ao conteúdo desejado. Por exemplo, cabeçalhos devem ser utilizados de acordo com a sua hierarquia, com o "h1" sendo o mais importante, o "h2" para o segundo mais importante, até o último nível. Listas ordenadas devem ser representadas com a tag "ol" apropriadamente, entre outros.</li>
                 <code>
                     ...
                     <br>&lt;h2>Cabeçalho secundário&lt;/h2>
-                    <br>&lt;p>Veja a lista ordenada a seguir:&lt;/p>
+                    <br>&lt;p>Veja a lista a seguir:&lt;/p>
                     <br>&lt;ol>
                     <br>&emsp;&emsp;&emsp;&lt;li>Primeiro item&lt;/li>
                     <br>&emsp;&emsp;&emsp;&lt;li>Segundo item&lt;/li>
@@ -257,7 +257,7 @@
                 <code>
                     &lt;img src="cachorro.jpg" alt="foto de um cachorro">
                 </code>
-                <li><strong>Associar etiquetas a campos de formulário.</strong> Cada entrada de dados em um formulário deve possuir uma tag label representando aquele campo.</li>
+                <li><strong>Associar etiquetas a campos de formulário.</strong> Cada entrada de dados em um formulário deve possuir uma tag "label" representando aquele campo.</li>
                 <code>
                     &lt;label>Nome completo: &lt;input type="text">&lt;/label>
                 </code>
@@ -302,9 +302,9 @@
             </ul>
 			<p>Assim com esses materiais foi possível fazer uma textura diferente para cada estrutura da bactéria como na figura abaixo:</p>
 			<figure>
-                    <img src="img/image11.jpg"alt="Imagem da representação tátil de uma bactéria e suas respectivas partes com legenda em textura e braille.">
-                    <figcaption>Imagem 10: figura do modelo tátil criado pelo grupo.
-                    </figcaption>
+                <img src="img/image11.jpg"alt="Imagem da representação tátil de uma bactéria e suas respectivas partes com legenda em textura e braille.">
+                <figcaption>Imagem 10: figura do modelo tátil criado pelo grupo.
+                </figcaption>
 			</figure>
 			<p>Na criação dos textos em braille foi usada a sala de acessibilidade da biblioteca da Universidade Tecnológica Federal do Paraná,
 			nela se encontram várias ferramentas como o molde, papel e furador para braille além das máquinas de escrever nesta linguagem  que
@@ -338,11 +338,11 @@
             <p>Essas soluções refletem a importância de desenvolver materiais didáticos que atendam a diferentes necessidades e reforçam o compromisso com a inclusão educacional.</p>
 			
             <h3>2.5 Testes de acessibilidade</h3>
-            <p>Testar a acessibilidade do conteúdo visual é imprescindível para garantir a inclusão de deficientes visuais. Algumas das ferramentas mais comuns são:</p>
+            <p>Testar a acessibilidade do conteúdo visual é imprescindível para garantir a inclusão de deficientes visuais. Existem diversas ferramentas online de avaliação automática ou semiautomática de acessibilidade, como:</p>
             <ul>
-                <li>WAVE</li>
-                <li>AXE</li>
-                <li>Lighthouse</li>
+                <li>WAVE (https://wave.webaim.org/)</li>
+                <li>AXE (https://www.deque.com/axe/)</li>
+                <li>Lighthouse (https://developer.chrome.com/docs/lighthouse)</li>
             </ul>
             <p>Além disso vale ressaltar que, sempre que possível, é importante o envolvimento de pessoas com deficiência visual nos testes de acessibilidade para obter feedback direto.</p>
             <h2>3 Conclusão</h2>
@@ -362,15 +362,15 @@
             </ul>
 			<p>As dificuldades enfrentadas são maioria por conta da falta de experiência com o material,
 			creio que se continuarmos fazendo mais mapas táteis e escrevendo em linguagem braille com maior frequência tornaria mais agilizado e prático.</p>
-            <section aria-labelledby="referencias" id="referencias">
-                <h2 id="referencias">Referências</h2>
-                <ul>
-                  <li><a href="https://zup.com.br/blog/acessibilidade-para-deficientes-visuais" target="_blank" rel="noopener noreferrer">Dicas para inclusão e acessibilidade para pessoas com deficiência visual</a></li>
-                  <li><a href="https://userway.org/pt/blog/pessoas-com-deficiencia-visual/" target="_blank" rel="noopener noreferrer">9 tecnologias para pessoas com deficiência visual</a></li>
-				  <li><a href="https://www.udesc.br/arquivos/faed/id_cpmenu/4477/Guia_Pr_tico_de_Apapta__o_em_Relevo_15840416592472_4477.pdf" target="_blank" rel="noopener noreferrer">Guia Prático de Adaptação em Alto Relevo</a></li>
-                </ul>
-              </section>
-			  <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><span property="dct:title">Guia de como tornar os materiais mais acessíveis para professores do IFPR</span> by <span property="cc:attributionName">Andrew Bryan Demeterco, Felipe Suzuki, Norton Jr., Rodrigo Luna, Saulo Centenaro, Teodoro Valença de Souza Wacholski</span> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></a></p>
+            <h2>Referências</h2>
+            <ul>
+                <li><a href="https://zup.com.br/blog/acessibilidade-para-deficientes-visuais" target="_blank" rel="noopener noreferrer">Dicas para inclusão e acessibilidade para pessoas com deficiência visual</a></li>
+                <li><a href="https://userway.org/pt/blog/pessoas-com-deficiencia-visual/" target="_blank" rel="noopener noreferrer">9 tecnologias para pessoas com deficiência visual</a></li>
+                <li><a href="https://www.udesc.br/arquivos/faed/id_cpmenu/4477/Guia_Pr_tico_de_Apapta__o_em_Relevo_15840416592472_4477.pdf" target="_blank" rel="noopener noreferrer">Guia Prático de Adaptação em Alto Relevo</a></li>
+                <li><a href="https://www.ufsm.br/midias/arco/guia-daltonismo-acessibilidade-cromatica">Daltonismo e acessibilidade cromática: um guia</a></li>
+                <li><a href="https://www.w3c.br/traducoes/wcag/wcag21-pt-BR/">Diretrizes de Acessibilidade para Conteúdo Web (WCAG) 2.1</a></li>
+            </ul>
+			<footer xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><span property="dct:title">Guia de como tornar os materiais mais acessíveis para professores do IFPR</span> by <span property="cc:attributionName">Andrew Bryan Demeterco, Felipe Suzuki, Norton Jr., Rodrigo Luna, Saulo Centenaro, Teodoro Valença de Souza Wacholski</span> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></a></footer>
         </div>
     </body>
 </html>
